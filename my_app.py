@@ -1,5 +1,5 @@
 import pathlib
-pathlib.PosixPath = pathlib.WindowsPath
+# pathlib.PosixPath = pathlib.WindowsPath
 
 import streamlit as st
 from fastai.vision.all import *
