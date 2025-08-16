@@ -22,7 +22,7 @@ if file:
 
     # prediction
     pred, pred_id, probs = model.predict(img)
-    st.success(f'Bashorat : {pred}')
+    st.success(f'Prediction : {pred}')
     st.info(f'Probability : {probs[pred_id]*100:.2f}')
     
     # plotting
