@@ -44,11 +44,13 @@ The model was trained using the **OIDv4_ToolKit** dataset downloader, fetching 2
    git clone https://github.com/ilhomPython571/Transport_Classification
 
 2. Install required packages:
- ```bash
+    ```bash
    pip install -r requirements.txt
 
 4. Run the Streamlit app:
+   ```bash
    streamlit run app.py
+   
 5. Upload an image and see the classification result along with class probabilities..
 
 
