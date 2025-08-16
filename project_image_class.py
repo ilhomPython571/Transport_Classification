@@ -50,8 +50,8 @@ upload
 
 img = PILImage.create(upload.data[-1])
 pred, pred_id, probs = learn.predict(img)
-print(f'Bashorat : {pred}')
-print(f'Ehtimollik : {probs[pred_id]*100:.2f}%')
+print(f'Prediction : {pred}')
+print(f'Probability : {probs[pred_id]*100:.2f}%')
 img
 
 learn.export('transport_model.pkl')
